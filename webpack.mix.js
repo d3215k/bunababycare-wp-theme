@@ -18,12 +18,13 @@ mix.postCss("resources/css/app.css", "css");
 
 mix.postCss("resources/css/editor-style.css", "css");
 
-// mix.browserSync({
-//     proxy: 'http://tailpress.test',
-//     host: 'tailpress.test',
-//     open: 'external',
-//     port: 8000
-// });
+mix.browserSync({
+    proxy: 'http://wordpress.test',
+    host: 'wordpress.test',
+    open: 'external',
+    port: 8000
+});
+
 
 if (mix.inProduction()) {
     mix.version();
