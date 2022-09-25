@@ -181,6 +181,14 @@
     --tw-bg-opacity: 1;
     background-color: rgb(17 24 39 / var(--tw-bg-opacity))
 }
+.bg-pink-50 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(253 242 248 / var(--tw-bg-opacity))
+}
+.bg-\[\#F5EDEA\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(245 237 234 / var(--tw-bg-opacity))
+}
 .p-4 {
     padding: 1rem
 }
@@ -253,9 +261,6 @@
 .font-semibold {
     font-weight: 600
 }
-.uppercase {
-    text-transform: uppercase
-}
 .leading-6 {
     line-height: 1.5rem
 }
@@ -285,13 +290,9 @@
     --tw-text-opacity: 1;
     color: rgb(75 85 99 / var(--tw-text-opacity))
 }
-.text-secondary {
+.text-pink-600 {
     --tw-text-opacity: 1;
-    color: rgb(20 184 166 / var(--tw-text-opacity))
-}
-.text-primary {
-    --tw-text-opacity: 1;
-    color: rgb(14 165 233 / var(--tw-text-opacity))
+    color: rgb(219 39 119 / var(--tw-text-opacity))
 }
 .text-gray-700 {
     --tw-text-opacity: 1;
@@ -300,10 +301,6 @@
 .text-blue-500 {
     --tw-text-opacity: 1;
     color: rgb(59 130 246 / var(--tw-text-opacity))
-}
-.text-pink-600 {
-    --tw-text-opacity: 1;
-    color: rgb(219 39 119 / var(--tw-text-opacity))
 }
 .underline {
     -webkit-text-decoration-line: underline;

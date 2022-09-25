@@ -7,6 +7,9 @@
   \*****************************/
 /***/ (() => {
 
+// import Alpine from 'alpinejs'
+// window.Alpine = Alpine
+// Alpine.start()
 // Navigation toggle
 window.addEventListener('load', function () {
   var main_navigation = document.querySelector('#primary-menu');

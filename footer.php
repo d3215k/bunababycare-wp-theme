@@ -7,7 +7,7 @@
 
 <?php do_action( 'bunababycare_content_after' ); ?>
 
-<footer id="colophon" class="site-footer bg-gray-50 py-12" role="contentinfo">
+<footer id="colophon" class="py-12 site-footer bg-[#F5EDEA]" role="contentinfo">
 	<?php do_action( 'bunababycare_footer' ); ?>
 
 	<div class="container mx-auto text-center text-gray-500">
