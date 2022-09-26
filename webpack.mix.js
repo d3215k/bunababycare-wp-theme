@@ -25,6 +25,7 @@ mix.browserSync({
     port: 8000
 });
 
+mix.disableSuccessNotifications();
 
 if (mix.inProduction()) {
     mix.version();

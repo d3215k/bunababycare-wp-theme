@@ -6,6 +6,10 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
 	<?php wp_head(); ?>
 </head>
 
@@ -13,7 +17,7 @@
 
 <?php do_action( 'bunababycare_site_before' ); ?>
 
-<div id="page" class="flex flex-col min-h-screen">
+<div id="page" class="flex flex-col min-h-screen bg-[#F5EDEA]">
 
 	<?php do_action( 'bunababycare_header' ); ?>
 

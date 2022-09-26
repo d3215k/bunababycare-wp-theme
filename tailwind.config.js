@@ -1,4 +1,5 @@
 const theme = require('./theme.json');
+const defaultTheme = require('tailwindcss/defaultTheme')
 const tailpress = require("@jeffreyvr/tailwindcss-tailpress");
 
 module.exports = {
@@ -18,6 +19,9 @@ module.exports = {
             },
         },
         extend: {
+            fontFamily: {
+                'serif' : ['Cormorant Garamond', ...defaultTheme.fontFamily.serif]
+            },
             colors: tailpress.colorMapper(tailpress.theme('settings.color.palette', theme)),
             fontSize: tailpress.fontSizeMapper(tailpress.theme('settings.typography.fontSizes', theme))
         },
