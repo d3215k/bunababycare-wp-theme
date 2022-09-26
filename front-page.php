@@ -70,5 +70,21 @@
 </div>
 <!-- End Testimonials -->
 
+<!-- Start Testimonials -->
+<div class="bg-white ">
+    <div class="max-w-screen-lg px-6 mx-auto border-t py-14">
+        <h2 class="mb-2 text-3xl font-semibold">Klinik</h2>
+        <div class="py-4">
+            <p class="text-gray-600">
+            Jalan Cihanjuang Komplek Nata Endah Blok N No. 170 Cibabat, Kec. Cimahi Utara, Kota Cimahi
+            </p>
+        </div>
+        <a href="https://goo.gl/maps/mLWKbcKvio5aFgj76" target="_blank" class="mt-4 text-primary">
+            Lihat di Google Maps
+        </a>
+    </div>
+</div>
+<!-- End Testimonials -->
+
 <?php
 get_footer();
