@@ -25,7 +25,7 @@
 
 		<header>
 
-			<div class="container mx-auto">
+			<div class="max-w-screen-md mx-auto">
 				<div class="py-6 border-b lg:flex lg:justify-between lg:items-center">
 					<div class="flex items-center justify-between">
 						<div>
