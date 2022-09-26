@@ -587,6 +587,9 @@ video {
 .ml-2{
     margin-left: 0.5rem
 }
+.mb-2{
+    margin-bottom: 0.5rem
+}
 .mb-4{
     margin-bottom: 1rem
 }
@@ -595,9 +598,6 @@ video {
 }
 .mb-12{
     margin-bottom: 3rem
-}
-.mb-2{
-    margin-bottom: 0.5rem
 }
 .inline-block{
     display: inline-block

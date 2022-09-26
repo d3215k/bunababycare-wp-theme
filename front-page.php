@@ -15,27 +15,6 @@
     <p class="mt-4 text-lg text-gray-600">
         Kami hadir sebagai solusi Ayah dan Bunda dalam menjadi sahabat kesehatan seputar kebidanan, mempersiapkan diri sedari pra nikah, kehamilan, nifas, perawatan bayi hingga pemantauan pertumbuhan bisa dilakukan dengan nyaman dan praktis di rumah.
     </p>
-    <div class="flex flex-col gap-2 mt-4 md:flex-row">
-        <a href="https://www.instagram.com/bunababy_care"
-            class="flex items-center w-64 px-4 py-2 font-semibold leading-6 text-white transition-colors duration-200 border border-transparent hover:opacity-80 bg-fuchsia-700 rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <rect x="4" y="4" width="16" height="16" rx="4"></rect>
-                <circle cx="12" cy="12" r="3"></circle>
-                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
-            </svg>    
-            <span class="ml-2">Ikuti kami di Instagram</span>
-        </a>
-        <a href="https://api.whatsapp.com/send?phone=628997897991&text=Halo+Bunababy_Care.+Perkenalkan+saya+dengan+%28Isi+Nama%29.+Lokasi+saya+di+%28Sebutkan+alamat+jelas%29.+Ingin+reservasi+treatment+%28sebutkan%29.+Thank+you"
-            class="flex items-center w-64 px-4 py-2 font-semibold leading-6 text-white transition-colors duration-200 bg-green-600 border border-transparent hover:opacity-80 rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path>
-                <path d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1"></path>
-            </svg>
-            <span class="ml-2">Pesan Treatment</span>
-        </a>
-    </div>
 </div>
 <!-- End introduction -->
 
@@ -85,6 +64,52 @@
     </div>
 </div>
 <!-- End Testimonials -->
+
+<!-- Start Instagram -->
+<!-- <div class="bg-white ">
+    <div class="max-w-screen-lg px-6 mx-auto border-t py-14">
+        <h2 class="mb-2 text-3xl font-semibold">Ikuti Kami di Instagram</h2>
+        <div class="py-4">
+
+        </div>
+        <a href="https://www.instagram.com/bunababy_care"
+            class="flex items-center w-64 px-4 py-2 font-semibold leading-6 text-white transition-colors duration-200 border border-transparent hover:opacity-80 bg-fuchsia-700 rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <rect x="4" y="4" width="16" height="16" rx="4"></rect>
+                <circle cx="12" cy="12" r="3"></circle>
+                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
+            </svg>    
+            <span class="ml-2">@bunababy_care</span>
+        </a>
+    </div>
+</div> -->
+<!-- End Instagram -->
+
+<!-- Start WhatsApp -->
+<div class="bg-white ">
+    <div class="max-w-screen-lg px-6 mx-auto border-t py-14">
+        <h2 class="mb-2 text-3xl font-semibold">Ikuti Kami di Instagram</h2>
+        <div class="py-4">
+
+        </div>
+        <div class="flex flex-col gap-2 mt-4 md:flex-row">
+        
+        <a href="https://api.whatsapp.com/send?phone=628997897991&text=Halo+Bunababy_Care.+Perkenalkan+saya+dengan+%28Isi+Nama%29.+Lokasi+saya+di+%28Sebutkan+alamat+jelas%29.+Ingin+reservasi+treatment+%28sebutkan%29.+Thank+you"
+            class="flex items-center w-64 px-4 py-2 font-semibold leading-6 text-white transition-colors duration-200 bg-green-600 border border-transparent hover:opacity-80 rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path>
+                <path d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1"></path>
+            </svg>
+            <span class="ml-2">Pesan Treatment</span>
+        </a>
+    </div>
+    </div>
+</div>
+<!-- End WhatsApp -->
+
+
 
 <?php
 get_footer();
