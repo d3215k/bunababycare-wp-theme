@@ -70,7 +70,7 @@
     <!-- Start Klinik -->
     <div class="bg-white ">
         <div class="max-w-screen-md px-6 mx-auto md:px-0 py-14">
-            <h2 class="mb-2 font-serif font-semibold text-7xl">Klinik</h2>
+            <h2 class="mb-2 font-serif text-5xl font-semibold lg:text-7xl">Klinik</h2>
             <div class="py-4">
                 <p class="text-gray-600">
                 Jalan Cihanjuang Komplek Nata Endah Blok N No. 170 Cibabat, Kec. Cimahi Utara, Kota Cimahi
@@ -140,7 +140,7 @@
     <!-- Start Testimonials -->
     <div class="py-12 bg-white">
         <div class="max-w-screen-md px-6 py-4 mx-auto md:px-0">
-            <h2 class="mb-2 font-serif font-semibold text-7xl">Real Testimonial</h2>
+            <h2 class="mb-2 font-serif text-5xl font-semibold lg:text-7xl">Real Testimonial</h2>
             <p class="text-gray-600">dari bunda yang sudah merasakan manfaat treatment</p>
         </div>
         <div class="py-2">
@@ -183,10 +183,13 @@
     <!-- Start FAQ -->
     <div class="bg-white ">
         <div class="max-w-screen-lg px-6 mx-auto md:px-0 py-14">
-            <div class="grid grid-cols-1 gap-6 sm:grid-cols-3">
+            <div class="grid grid-cols-1 gap-12 sm:grid-cols-3">
                 <div class="col-span-1">
-                    <h2 class="mb-2 font-serif font-semibold text-7xl">faq</h2>
-                    <p class="text-gray-600">yang paling sering ditanyakan</p>
+                    <img class="ml-8" src="<?php echo bunababycare_asset('images/faq.svg') ?>" alt="faq" />
+                    <div class="pr-0 -mt-16 text-right sm:pr-12">
+                        <h2 class="mb-2 font-serif text-5xl font-semibold lg:text-7xl">faq</h2>
+                        <p class="text-gray-600">yang paling sering ditanyakan</p>
+                    </div>
                 </div>
                 <div class="col-span-2">
                     <div class="space-y-4">
@@ -247,10 +250,10 @@
 
     <!-- Start Booking -->
     <div class="bg-[#da949c] text-white">
-        <div class="max-w-screen-md px-6 mx-auto md:px-0 py-14">
-            <h2 class="mb-2 font-serif font-semibold text-center text-7xl">Alur Booking</h2>
+        <div class="max-w-screen-md px-8 mx-auto sm:px-0 py-14">
+            <h2 class="mb-2 font-serif text-5xl font-semibold text-center lg:text-7xl">Alur Booking</h2>
             <div class="py-4">
-                <ul class="grid gap-6 sm:grid-cols-3">
+                <ul class="grid gap-2 sm:gap-6 sm:grid-cols-3">
                     <li class="flex items-center">
                         <div class="text-5xl font-bold leading-none opacity-60">1</div>
                         <div class="ml-2 text-lg leading-tight">Booking Via WA</div>
