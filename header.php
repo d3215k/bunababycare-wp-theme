@@ -17,7 +17,7 @@
 
 <?php do_action( 'bunababycare_site_before' ); ?>
 
-<div id="page" class="flex flex-col min-h-screen bg-[#F5EDEA]">
+<div id="page" class="flex flex-col min-h-screen bg-[#F6EDE9] text-[#a35266]">
 
 	<?php do_action( 'bunababycare_header' ); ?>
 
@@ -76,6 +76,22 @@
 		</header>
 
 	<?php } ?>
+
+	<div class="fixed bottom-6 right-6"
+		x-show="$store.waButton.show"
+		x-transition
+		style="display: none"
+	>
+		<div class="relative text-white">
+			<button class="p-2 bg-green-500 rounded-full">
+				<svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+					<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+					<path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path>
+					<path d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1"></path>
+				</svg>
+			</button>
+		</div>
+	</div>
 
 	<div id="content" class="flex-grow site-content">
 
