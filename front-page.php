@@ -8,10 +8,24 @@
                 <div>
                     <img width="220" src="<?php echo bunababycare_asset('images/logo.svg') ?>" alt="Logo Bunababycare">
                 </div>
-                <div>
-                    <a href="https://api.whatsapp.com/send?phone=628997897991&text=Halo+Bunababy_Care.+Perkenalkan+saya+dengan+%28Isi+Nama%29.+Lokasi+saya+di+%28Sebutkan+alamat+jelas%29.+Ingin+reservasi+treatment+%28sebutkan%29.+Thank+you" class="px-6 py-2 text-sm font-semibold text-white uppercase rounded-full hover:opacity-80 bg-primary">
-                        book now
-                    </a>
+                <div class="hidden sm:block">
+                    <ul class="flex items-center gap-6">
+                        <li class="text-sm font-semibold leading-tight text-gray-600 uppercase">
+                            <a href="#about">About Us</a>
+                        </li>
+                        <li class="text-sm font-semibold leading-tight text-gray-600 uppercase">
+                            <a href="#treatment">Treatment</a>
+                        </li>
+                        <li class="text-sm font-semibold leading-tight text-gray-600 uppercase">
+                            <a href="#testimoni">Testimoni</a>
+                        </li>
+                        <li class="text-sm font-semibold leading-tight text-gray-600 uppercase">
+                            <a href="#faq">FAQ</a>
+                        </li>
+                        <li class="text-sm font-semibold leading-tight text-gray-600 uppercase">
+                            <a href="#booking">Booking</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -20,26 +34,46 @@
 
     <!-- Start Hero -->
     <div class="bg-white">
-        <div class="max-w-screen-md px-6 py-24 mx-auto md:px-0">
-            <p class="mt-6 text-lg font-bold text-gray-500">
-                baby and materity care.
-            </p>
-            <p class="max-w-screen-md mt-2 text-4xl font-medium text-gray-800">
-                Kami telah berkarya sejak 2018
-            </p>
-            <p class="max-w-screen-sm mt-2 text-lg font-medium text-gray-700">
-                Dipercaya oleh ribuan ibu dan bayi menjadi pelayanan homecare ternama di Bandung dan Cimahi.
-            </p>
+        <div class="max-w-screen-lg px-6 pb-48 mx-auto pt-28 md:px-0">
+            <div class="flex flex-col items-center text-center">
+                <p class="max-w-screen-md mt-2 text-4xl font-bold text-gray-800">
+                    Kami telah berkarya sejak 2018
+                </p>
+                <p class="mt-2 text-lg text-gray-700">
+                    Dipercaya oleh ribuan ibu dan bayi menjadi pelayanan homecare ternama di Bandung dan Cimahi.
+                </p>
+                <div class="flex justify-center mt-8 text-gray-600">
+                    <a href="/" rel="noopener" target="_blank" class="flex items-center font-semibold focus:outline-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <rect x="3" y="5" width="18" height="14" rx="4"></rect>
+                            <path d="M10 9l5 3l-5 3z"></path>
+                        </svg>
+                        <span class="ml-2 tracking-wider">LIHAT VIDEO</span>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
     <!-- End Hero -->
 
+    <!-- Start Team -->
+    <div class="-mt-32">
+        <div class="max-w-screen-md px-6 py-12 mx-auto md:px-0">
+            <div class="">
+                <img class="overflow-hidden rounded-lg shadow-lg" src="<?php echo bunababycare_asset('images/team.jpg') ?>">
+                <p class="mt-6 text-lg text-center text-gray-600">Tim BunaBaby Care merupakan tenaga kesehatan bidan yang telah memiliki sertifikat pelatihan baby spa.</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Team -->
+
     <!-- Start introduction -->
-    <div class="bg-[#da949c] text-white">
-        <div class="max-w-screen-md px-6 pt-24 pb-32 mx-auto text-lg md:px-0">
-            <div class="flex gap-8">
+    <div class="bg-[#da949c] text-white" id="about">
+        <div class="max-w-screen-lg px-6 py-16 mx-auto text-lg md:px-0">
+            <div class="flex items-center gap-8">
                 <div class="flex-shrink-0 ">
-                    <img width="200" src="<?php echo bunababycare_asset('images/ibu-gendong-bayi.svg') ?>">
+                    <img class="rounded-lg" width="300" src="<?php echo bunababycare_asset('images/ibu.jpg') ?>">
                 </div>
                 <div>
                     <p class="">
@@ -54,38 +88,50 @@
     </div>
     <!-- End introduction -->
 
-    <!-- Start Team -->
-    <div >
-        <div class="max-w-screen-sm px-6 mx-auto mb-12 -mt-12 md:px-0">
-            <div class="">
-                <img class="overflow-hidden rounded-lg shadow-lg" src="<?php echo bunababycare_asset('images/team.jpg') ?>">
-            </div>
-            <div class="flex justify-center mt-8">
-                <p class="text-lg text-center text-gray-600">Tim BunaBaby Care merupakan tenaga kesehatan bidan yang telah memiliki sertifikat pelatihan baby spa.</p>
-            </div>
-        </div>
-    </div>
-    <!-- End Team -->
+    
 
     <!-- Start Klinik -->
-    <div class="bg-white ">
-        <div class="max-w-screen-md px-6 mx-auto md:px-0 py-14">
-            <h2 class="mb-2 font-serif text-5xl font-semibold lg:text-7xl">Klinik</h2>
-            <div class="py-4">
-                <p class="text-gray-600">
-                Jalan Cihanjuang Komplek Nata Endah Blok N No. 170 Cibabat, Kec. Cimahi Utara, Kota Cimahi
-                </p>
+    <div class="bg-white">
+        <div class="max-w-screen-lg px-6 mx-auto md:px-0 py-14">
+            <div class="grid grid-cols-2 gap-6 ">
+                <div class="col-span-1">
+                    <img class="rounded-lg" src="<?php echo bunababycare_asset('images/klinik/1.jpg') ?>">
+                </div>
+                <div class="col-span-1">
+                    <img class="rounded-lg" src="<?php echo bunababycare_asset('images/klinik/2.jpg') ?>">
+                </div>
+                <div class="col-span-1">
+                    <img class="rounded-lg" src="<?php echo bunababycare_asset('images/klinik/3.jpg') ?>">
+                </div>
+                <div class="col-span-1">
+                    <img class="rounded-lg" src="<?php echo bunababycare_asset('images/klinik/4.jpg') ?>">
+                </div>
             </div>
-            <a href="https://goo.gl/maps/mLWKbcKvio5aFgj76" target="_blank" class="mt-4 text-primary">
-                Lihat di Google Maps
-            </a>
+
+            <div class="grid grid-cols-2 gap-6 mt-8">
+                <div class="flex flex-col justify-center">
+                    <div class="py-4">
+                        <h2 class="mb-2 font-serif text-5xl font-semibold lg:text-7xl">Klinik</h2>
+                        <p class="text-gray-600">
+                        Jalan Cihanjuang Komplek Nata Endah Blok N No. 170 Cibabat, Kec. Cimahi Utara, Kota Cimahi
+                        </p>
+                    </div>
+                    <a href="https://goo.gl/maps/mLWKbcKvio5aFgj76" target="_blank" class="mt-4 text-primary">
+                        Lihat di Google Maps
+                    </a>
+                </div>
+                <div class="">
+                    <img class="rounded-lg" src="<?php echo bunababycare_asset('images/klinik/depan.jpg') ?>">
+                </div>
+            </div>
+            
         </div>
     </div>
     <!-- End Klinik -->
 
     <!-- Start Layanan -->
-    <div class="">
-        <div class="max-w-screen-md px-6 py-12 mx-auto md:px-0">
+    <div id="treatment">
+        <div class="max-w-screen-md px-6 py-24 mx-auto md:px-0">
             <h2 class="mb-2 font-serif text-5xl font-semibold lg:text-7xl">Pilihan Treatment</h2>
             <div class="mt-8 space-y-6">
                 <div class="flex flex-col items-center sm:gap-6 sm:items-center sm:flex-row">
@@ -138,7 +184,7 @@
     <!-- End Layanan -->
 
     <!-- Start Testimonials -->
-    <div class="py-12 bg-white">
+    <div id="testimoni" class="py-12 bg-white">
         <div class="max-w-screen-md px-6 py-4 mx-auto md:px-0">
             <h2 class="mb-2 font-serif text-5xl font-semibold lg:text-7xl">Real Testimonial</h2>
             <p class="text-gray-600">dari bunda yang sudah merasakan manfaat treatment</p>
@@ -181,7 +227,7 @@
     <!-- End Testimonials -->
 
     <!-- Start FAQ -->
-    <div class="bg-white ">
+    <div id="faq" class="bg-white ">
         <div class="max-w-screen-lg px-6 mx-auto md:px-0 py-14">
             <div class="grid grid-cols-1 gap-12 sm:grid-cols-3">
                 <div class="col-span-1">
@@ -249,7 +295,7 @@
     <!-- End Instagram -->
 
     <!-- Start Booking -->
-    <div class="bg-[#da949c] text-white">
+    <div id="booking" class="bg-[#da949c] text-white">
         <div class="max-w-screen-md px-8 mx-auto sm:px-0 py-14">
             <h2 class="mb-2 font-serif text-5xl font-semibold text-center lg:text-7xl">Alur Booking</h2>
             <div class="py-4">
