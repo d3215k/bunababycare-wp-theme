@@ -21,10 +21,10 @@
     <!-- Start Hero -->
     <div class="bg-white">
         <div class="max-w-screen-md px-6 py-24 mx-auto md:px-0">
-            <p class="mt-6 font-serif text-2xl italic font-bold text-gray-500">
-                Baby and Materity Care.
+            <p class="mt-6 text-lg font-bold text-gray-500">
+                baby and materity care.
             </p>
-            <p class="max-w-screen-md mt-2 text-3xl font-medium text-gray-800">
+            <p class="max-w-screen-md mt-2 text-4xl font-medium text-gray-800">
                 Kami telah berkarya sejak 2018
             </p>
             <p class="max-w-screen-sm mt-2 text-lg font-medium text-gray-700">
@@ -36,7 +36,7 @@
 
     <!-- Start introduction -->
     <div class="bg-[#da949c] text-white">
-        <div class="max-w-screen-md px-6 pt-24 pb-32 mx-auto text-xl md:px-0">
+        <div class="max-w-screen-md px-6 pt-24 pb-32 mx-auto text-lg md:px-0">
             <div class="flex gap-8">
                 <div class="flex-shrink-0 ">
                     <img width="200" src="<?php echo bunababycare_asset('images/ibu-gendong-bayi.svg') ?>">
@@ -61,7 +61,7 @@
                 <img class="overflow-hidden rounded-lg shadow-lg" src="<?php echo bunababycare_asset('images/team.jpg') ?>">
             </div>
             <div class="flex justify-center mt-8">
-                <p class="text-xl text-center">Tim BunaBaby Care merupakan tenaga kesehatan bidan yang telah memiliki sertifikat pelatihan baby spa.</p>
+                <p class="text-lg text-center text-gray-600">Tim BunaBaby Care merupakan tenaga kesehatan bidan yang telah memiliki sertifikat pelatihan baby spa.</p>
             </div>
         </div>
     </div>
@@ -70,7 +70,7 @@
     <!-- Start Klinik -->
     <div class="bg-white ">
         <div class="max-w-screen-md px-6 mx-auto md:px-0 py-14">
-            <h2 class="mb-2 text-3xl font-semibold">Klinik</h2>
+            <h2 class="mb-2 font-serif font-semibold text-7xl">Klinik</h2>
             <div class="py-4">
                 <p class="text-gray-600">
                 Jalan Cihanjuang Komplek Nata Endah Blok N No. 170 Cibabat, Kec. Cimahi Utara, Kota Cimahi
@@ -84,50 +84,52 @@
     <!-- End Klinik -->
 
     <!-- Start Layanan -->
-    <div class="bg-white">
+    <div class="">
         <div class="max-w-screen-md px-6 py-12 mx-auto md:px-0">
-            <h2 class="mb-2 text-3xl font-semibold">Layanan Kami</h2>
-            <div class="flex items-center gap-6">
-                <div>
-                    <h3 class="text-3xl font-semibold">Baby Treatment</h3>
-                    <p class="mt-4 text-lg text-gray-600">Pijat bayi sehat, pijat balita, brain gym, pijat pediatrik, pijat stimulasi anak, baby spa, Cukur Bayi, Tindik, Tumbuh Kembang Anak, Mandi Ceria</p>
+            <h2 class="mb-2 font-serif text-5xl font-semibold lg:text-7xl">Pilihan Treatment</h2>
+            <div class="mt-8 space-y-6">
+                <div class="flex flex-col items-center sm:gap-6 sm:items-center sm:flex-row">
+                    <div class="order-2 text-center sm:order-1">
+                        <h3 class="text-xl font-bold uppercase lg:text-3xl">Baby Treatment</h3>
+                        <p class="mt-2 text-gray-600 lg:text-lg">Pijat bayi sehat, pijat balita, brain gym, pijat pediatrik, pijat stimulasi anak, baby spa, Cukur Bayi, Tindik, Tumbuh Kembang Anak, Mandi Ceria</p>
+                    </div>
+                    <div class="inline-flex justify-end flex-shrink-0 order-1 sm:order-2">
+                        <img width="200" src="<?php echo bunababycare_asset('images/baby-treatment.svg') ?>" alt="baby treatment">
+                    </div>
                 </div>
-                <div class="flex-shrink-0">
-                    <img width="200" src="<?php echo bunababycare_asset('images/baby-treatment.svg') ?>" alt="baby treatment">
+                
+                <div class="flex flex-col items-center sm:gap-6 sm:items-center sm:flex-row">
+                    <div class="flex-shrink-0">
+                        <img width="200" src="<?php echo bunababycare_asset('images/newborn.svg') ?>" alt="baby treatment">
+                    </div>
+                    <div class="text-center">
+                        <h3 class="text-xl font-bold uppercase lg:text-3xl">Newborn Package</h3>
+                        <p class="mt-2 text-gray-600 lg:text-lg">Mandi, Jemur, Perawatan tali pusat, pemeriksaan ibu dan bayi, pijat bayi, pijat oksitosin/breastcare, praktek belajar memandikan bayi untuk orangtua, pijat nifas, totok wajah, scrub</p>
+                    </div>
                 </div>
-            </div>
-            
-            <div class="flex items-center gap-6">
-                <div class="flex-shrink-0">
-                    <img width="200" src="<?php echo bunababycare_asset('images/newborn.svg') ?>" alt="baby treatment">
+
+                <div class="flex flex-col items-center sm:gap-6 sm:items-center sm:flex-row">
+                    <div class="order-2 text-center sm:order-1">
+                        <h3 class="text-xl font-bold uppercase lg:text-3xl">Buna Treatment</h3>
+                        <p class="mt-2 text-gray-600 lg:text-lg">Pijat ibu hamil, periksa ibu hamil, totok wajah, pijat ibu nifas, pijat oksitosin, pijat rintik hujan, Prenatal Gentle Yoga, Breastcare, pijat punggung titik oksitosin, konsultasi ASI, Pijat Gelombang Cinta untuk menstimulasi konstraksi alami bumil, periksa hamil, afirmasi untuk persalinan lancar, totok bersinar</p>
+                    </div>
+                    <div class="inline-flex justify-end flex-shrink-0 order-1 sm:order-2">
+                        <img width="200" src="<?php echo bunababycare_asset('images/buna-treatment.svg') ?>" alt="baby treatment">
+                    </div>
                 </div>
-                <div>
-                    <h3 class="text-3xl font-semibold">Newborn Package</h3>
-                    <p class="mt-4 text-lg text-gray-600">Mandi, Jemur, Perawatan tali pusat, pemeriksaan ibu dan bayi, pijat bayi, pijat oksitosin/breastcare, praktek belajar memandikan bayi untuk orangtua, pijat nifas, totok wajah, scrub</p>
+
+                <div class="flex flex-col items-center sm:gap-6 sm:items-center sm:flex-row">
+                    <div class="flex-shrink-0">
+                        <img width="200" src="<?php echo bunababycare_asset('images/bunababy-class.svg') ?>" alt="baby treatment">
+                    </div>
+                    <div class="text-center">
+                        <h3 class="text-xl font-bold uppercase lg:text-3xl">Bunababy Class</h3>
+                        <p class="mt-2 text-gray-600 lg:text-lg">Persiapan Persalinan, Kelas Laktasi, New Born Care, Tumbuh Kembang Anak</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="flex items-center gap-6">
-                <div>
-                    <h3 class="text-3xl font-semibold">Buna Treatment</h3>
-                    <p class="mt-4 text-lg text-gray-600">Pijat ibu hamil, periksa ibu hamil, totok wajah, pijat ibu nifas, pijat oksitosin, pijat rintik hujan, Prenatal Gentle Yoga, Breastcare, pijat punggung titik oksitosin, konsultasi ASI, Pijat Gelombang Cinta untuk menstimulasi konstraksi alami bumil, periksa hamil, afirmasi untuk persalinan lancar, totok bersinar</p>
-                </div>
-                <div class="flex-shrink-0">
-                    <img width="200" src="<?php echo bunababycare_asset('images/buna-treatment.svg') ?>" alt="baby treatment">
-                </div>
-            </div>
-
-            <div class="flex items-center gap-6">
-                <div class="flex-shrink-0">
-                    <img width="200" src="<?php echo bunababycare_asset('images/bunababy-class.svg') ?>" alt="baby treatment">
-                </div>
-                <div>
-                    <h3 class="text-3xl font-semibold">Bunababy Class</h3>
-                    <p class="mt-4 text-lg text-gray-600">Persiapan Persalinan, Kelas Laktasi, New Born Care, Tumbuh Kembang Anak</p>
-                </div>
-            </div>
-
-            <div class="py-4">
+            <div class="py-6 text-center sm:text-left">
                 <a href="https://api.whatsapp.com/send?phone=628997897991&text=Halo+Bunababy_Care.+Perkenalkan+saya+dengan+%28Isi+Nama%29.+Lokasi+saya+di+%28Sebutkan+alamat+jelas%29.+Mau+bertanya+" target="_blank" class=" text-primary">Hubungi admin untuk lihat pricelist</a>
             </div>
 
@@ -138,7 +140,7 @@
     <!-- Start Testimonials -->
     <div class="py-12 bg-white">
         <div class="max-w-screen-md px-6 py-4 mx-auto md:px-0">
-            <h2 class="mb-2 text-3xl font-semibold">Real Testimonial</h2>
+            <h2 class="mb-2 font-serif font-semibold text-7xl">Real Testimonial</h2>
             <p class="text-gray-600">dari bunda yang sudah merasakan manfaat treatment</p>
         </div>
         <div class="py-2">
@@ -175,35 +177,49 @@
                 </div>
             </div>
         </div>
-        <div class="max-w-screen-md px-6 py-4 mx-auto md:px-0">
-            <a href="https://www.google.com/search?q=bunababycare#lrd=0x2e68e521cbe08f8b:0xb44d0217840f5963,1,,," target="_blank" class="mt-4 text-primary">Lihat Testimonial Lainnya</a>
-        </div>
     </div>
     <!-- End Testimonials -->
 
     <!-- Start FAQ -->
     <div class="bg-white ">
-        <div class="max-w-screen-md px-6 mx-auto border-t md:px-0 py-14">
-            <h2 class="mb-2 text-3xl font-semibold">FAQ</h2>
-            <div class="py-4 space-y-4">
-                <div>
-                    <p class="font-semibold text-gray-700">
-                        Gimana cara reservasinya?
-                    </p>
-                    <p class="mt-1 text-gray-600">
-                        Gampang Bunda, cukup dengan menghubungi admin melalui tombol whatsapp yang ada pada website ini, duduk manis di rumah dan tunggu tim bidan datang.
-                    </p>
+        <div class="max-w-screen-lg px-6 mx-auto md:px-0 py-14">
+            <div class="grid grid-cols-1 gap-6 sm:grid-cols-3">
+                <div class="col-span-1">
+                    <h2 class="mb-2 font-serif font-semibold text-7xl">faq</h2>
+                    <p class="text-gray-600">yang paling sering ditanyakan</p>
                 </div>
-                <div>
-                    <p class="font-semibold text-gray-700">
-                        Untuk onsite di klinik apakah harus booking dulu?
-                    </p>
-                    <p class="mt-1 text-gray-600">
-                        Untuk onsite pun booking dulu ya bun. Soalnya supaya pas datang langsung treatment, jadi bayinya nyaman tidak harus lama menunggu.
-                    </p>
+                <div class="col-span-2">
+                    <div class="space-y-4">
+                        <div>
+                            <p class="font-semibold text-gray-700">
+                                Wilayah jangkauan Homecare daerah mana aja?
+                            </p>
+                            <p class="mt-2 text-gray-600">
+                                Saat ini BunaBaby menjangkau Kota Bandung, Kabupaten Bandung, Kab. Bandung Barat dan Cimahi.
+                            </p>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-gray-700">
+                                Gimana cara reservasinya?
+                            </p>
+                            <p class="mt-2 text-gray-600">
+                                Gampang Bunda, cukup dengan menghubungi admin melalui tombol whatsapp yang ada pada website ini, duduk manis di rumah dan tunggu tim bidan datang sesuai jadwal.
+                            </p>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-gray-700">
+                                Untuk onsite di klinik apakah harus booking dulu?
+                            </p>
+                            <p class="mt-2 text-gray-600">
+                                Untuk onsite pun booking dulu ya bun. Soalnya supaya pas datang langsung treatment, jadi bayinya nyaman tidak harus lama menunggu.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="py-4">
+                        <a href="https://api.whatsapp.com/send?phone=628997897991&text=Halo+Bunababy_Care.+Perkenalkan+saya+dengan+%28Isi+Nama%29.+Lokasi+saya+di+%28Sebutkan+alamat+jelas%29.+Mau+bertanya+" target="_blank" class="mt-4 text-primary">Hubungi admin bila ada pertanyaan lain</a>
+                    </div>
                 </div>
             </div>
-            <a href="https://api.whatsapp.com/send?phone=628997897991&text=Halo+Bunababy_Care.+Perkenalkan+saya+dengan+%28Isi+Nama%29.+Lokasi+saya+di+%28Sebutkan+alamat+jelas%29.+Mau+bertanya+" target="_blank" class="mt-4 text-primary">Hubungi admin bila ada pertanyaan lain</a>
         </div>
     </div>
     <!-- End FAQ -->
@@ -232,7 +248,7 @@
     <!-- Start Booking -->
     <div class="bg-[#da949c] text-white">
         <div class="max-w-screen-md px-6 mx-auto md:px-0 py-14">
-            <h2 class="mb-2 text-3xl font-semibold">Alur Booking</h2>
+            <h2 class="mb-2 font-serif font-semibold text-center text-7xl">Alur Booking</h2>
             <div class="py-4">
                 <ul class="grid gap-6 sm:grid-cols-3">
                     <li class="flex items-center">
@@ -253,11 +269,12 @@
                     </li>
                     <li class="flex items-center">
                         <div class="text-5xl font-bold leading-none opacity-60">5</div>
-                        <div class="ml-2 text-lg leading-tight">Bayar DP</div>
+                        <div class="ml-2 text-lg leading-tight">Bayar DP = Booked Slot</div>
+                    </li>
                     </li>
                     <li class="flex items-center">
                         <div class="text-5xl font-bold leading-none opacity-60">6</div>
-                        <div class="ml-2 text-lg leading-tight">Treatment deh</div>
+                        <div class="ml-2 text-lg leading-tight">Treatment Deh!</div>
                     </li>
                 </ul>
             </div>
@@ -274,7 +291,7 @@
     >
     <div class="max-w-screen-sm px-6 mx-auto sm:px-0">
         <div class="relative flex flex-col items-center px-6 py-8 bg-white rounded-lg -mt-14 sm:flex-row sm:py-4">
-            <p class="flex-grow pb-2 text-xl font-normal text-gray-700 sm:text-center sm:pb-0">Sudah siap untuk treatment?</p>
+            <p class="flex-grow pb-2 text-lg font-normal text-gray-700 sm:text-center sm:pb-0">Sudah siap untuk treatment?</p>
             <a href="https://api.whatsapp.com/send?phone=628997897991&text=Halo+Bunababy_Care.+Perkenalkan+saya+dengan+%28Isi+Nama%29.+Lokasi+saya+di+%28Sebutkan+alamat+jelas%29.+Ingin+reservasi+treatment+%28sebutkan%29.+Thank+you"
                     class="flex items-center w-64 px-4 py-2 font-semibold leading-6 text-white transition-colors duration-200 bg-green-500 border border-transparent hover:opacity-80 rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -282,7 +299,7 @@
                         <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path>
                         <path d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1"></path>
                     </svg>
-                    <span class="ml-2 text-lg">Booking Sekarang</span>
+                    <span class="ml-2">Booking Sekarang</span>
                 </a>
         </div>
     </div>

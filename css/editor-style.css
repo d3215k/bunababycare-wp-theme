@@ -49,6 +49,18 @@
 .right-6 {
     right: 1.5rem
 }
+.order-2 {
+    order: 2
+}
+.order-1 {
+    order: 1
+}
+.col-span-1 {
+    grid-column: span 1 / span 1
+}
+.col-span-2 {
+    grid-column: span 2 / span 2
+}
 .m-8 {
     margin: 2rem
 }
@@ -66,6 +78,9 @@
 }
 .mb-8 {
     margin-bottom: 2rem
+}
+.mb-2 {
+    margin-bottom: 0.5rem
 }
 .mt-4 {
     margin-top: 1rem
@@ -85,17 +100,11 @@
 .mt-8 {
     margin-top: 2rem
 }
-.mb-2 {
-    margin-bottom: 0.5rem
-}
-.mt-1 {
-    margin-top: 0.25rem
-}
 .ml-2 {
     margin-left: 0.5rem
 }
-.-mt-16 {
-    margin-top: -4rem
+.-mt-14 {
+    margin-top: -3.5rem
 }
 .mb-4 {
     margin-bottom: 1rem
@@ -103,14 +112,14 @@
 .mb-1 {
     margin-bottom: 0.25rem
 }
-.-mt-14 {
-    margin-top: -3.5rem
-}
 .inline-block {
     display: inline-block
 }
 .flex {
     display: flex
+}
+.inline-flex {
+    display: inline-flex
 }
 .grid {
     display: grid
@@ -121,14 +130,14 @@
 .h-1 {
     height: 0.25rem
 }
-.h-10 {
-    height: 2.5rem
+.h-12 {
+    height: 3rem
 }
 .h-6 {
     height: 1.5rem
 }
-.h-12 {
-    height: 3rem
+.h-10 {
+    height: 2.5rem
 }
 .min-h-screen {
     min-height: 100vh
@@ -142,14 +151,14 @@
 .w-64 {
     width: 16rem
 }
-.w-10 {
-    width: 2.5rem
+.w-12 {
+    width: 3rem
 }
 .w-6 {
     width: 1.5rem
 }
-.w-12 {
-    width: 3rem
+.w-10 {
+    width: 2.5rem
 }
 .max-w-sm {
     max-width: 24rem
@@ -159,6 +168,9 @@
 }
 .max-w-screen-sm {
     max-width: 600px
+}
+.max-w-screen-lg {
+    max-width: 960px
 }
 .flex-none {
     flex: none
@@ -187,20 +199,17 @@
 .list-decimal {
     list-style-type: decimal
 }
-.grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr))
+.grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr))
 }
 .flex-col {
     flex-direction: column
 }
-.flex-wrap {
-    flex-wrap: wrap
-}
-.items-end {
-    align-items: flex-end
-}
 .items-center {
     align-items: center
+}
+.justify-end {
+    justify-content: flex-end
 }
 .justify-center {
     justify-content: center
@@ -211,19 +220,21 @@
 .gap-8 {
     gap: 2rem
 }
-.gap-6 {
-    gap: 1.5rem
-}
 .gap-2 {
     gap: 0.5rem
 }
-.gap-4 {
-    gap: 1rem
+.gap-6 {
+    gap: 1.5rem
 }
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0.5rem * var(--tw-space-y-reverse))
+}
+.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1.5rem * var(--tw-space-y-reverse))
 }
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
@@ -289,9 +300,9 @@
     --tw-bg-opacity: 1;
     background-color: rgb(162 28 175 / var(--tw-bg-opacity))
 }
-.bg-green-600 {
+.bg-green-500 {
     --tw-bg-opacity: 1;
-    background-color: rgb(22 163 74 / var(--tw-bg-opacity))
+    background-color: rgb(34 197 94 / var(--tw-bg-opacity))
 }
 .bg-\[\#F6EDE9\] {
     --tw-bg-opacity: 1;
@@ -300,10 +311,6 @@
 .bg-gray-100 {
     --tw-bg-opacity: 1;
     background-color: rgb(243 244 246 / var(--tw-bg-opacity))
-}
-.bg-green-500 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(34 197 94 / var(--tw-bg-opacity))
 }
 .p-4 {
     padding: 1rem
@@ -343,21 +350,17 @@
     padding-top: 3.5rem;
     padding-bottom: 3.5rem
 }
-.px-8 {
-    padding-left: 2rem;
-    padding-right: 2rem
-}
 .py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem
 }
+.px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem
+}
 .py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem
-}
-.py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem
 }
 .pt-24 {
     padding-top: 6rem
@@ -372,7 +375,10 @@
     text-align: center
 }
 .font-serif {
-    font-family: Cormorant Garamond, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif
+    font-family: Carattere, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif
+}
+.font-sans {
+    font-family: Inter var, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
 }
 .text-5xl {
     font-size: 3rem;
@@ -386,20 +392,24 @@
     font-size: 0.875rem;
     line-height: 1.25rem
 }
-.text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem
-}
 .text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem
 }
-.text-xl {
-    font-size: 1.25rem
-}
 .text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem
+}
+.text-7xl {
+    font-size: 4.5rem;
+    line-height: 1
+}
+.text-xl {
+    font-size: 1.25rem
+}
+.text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem
 }
 .font-light {
     font-weight: 300
@@ -422,17 +432,14 @@
 .uppercase {
     text-transform: uppercase
 }
-.italic {
-    font-style: italic
-}
 .leading-6 {
     line-height: 1.5rem
 }
-.leading-tight {
-    line-height: 1.25
-}
 .leading-none {
     line-height: 1
+}
+.leading-tight {
+    line-height: 1.25
 }
 .text-gray-800 {
     --tw-text-opacity: 1;
@@ -441,6 +448,10 @@
 .text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+.text-gray-600 {
+    --tw-text-opacity: 1;
+    color: rgb(75 85 99 / var(--tw-text-opacity))
 }
 .text-gray-500 {
     --tw-text-opacity: 1;
@@ -453,10 +464,6 @@
 .text-primary {
     --tw-text-opacity: 1;
     color: rgb(14 165 233 / var(--tw-text-opacity))
-}
-.text-gray-600 {
-    --tw-text-opacity: 1;
-    color: rgb(75 85 99 / var(--tw-text-opacity))
 }
 .text-gray-900 {
     --tw-text-opacity: 1;
@@ -545,7 +552,7 @@
     color: #4b5563
 }
 body {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+    font-family: Inter var, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
 }
 .wp-block {
     max-width: 1280px
@@ -579,8 +586,11 @@ body {
     --tw-ring-offset-color: #fff
 }
 @media (min-width: 600px) {
-    .sm\:flex {
-        display: flex
+    .sm\:order-1 {
+        order: 1
+    }
+    .sm\:order-2 {
+        order: 2
     }
     .sm\:scroll-pl-6 {
         scroll-padding-left: 1.5rem
@@ -591,13 +601,16 @@ body {
     .sm\:flex-row {
         flex-direction: row
     }
+    .sm\:items-center {
+        align-items: center
+    }
+    .sm\:gap-6 {
+        gap: 1.5rem
+    }
     .sm\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
         --tw-space-x-reverse: 0;
         margin-right: calc(2rem * var(--tw-space-x-reverse));
         margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)))
-    }
-    .sm\:rounded-lg {
-        border-radius: 0.5rem
     }
     .sm\:px-0 {
         padding-left: 0px;
@@ -609,6 +622,9 @@ body {
     }
     .sm\:pb-0 {
         padding-bottom: 0px
+    }
+    .sm\:text-left {
+        text-align: left
     }
     .sm\:text-center {
         text-align: center
@@ -627,9 +643,6 @@ body {
     }
     .md\:scroll-pl-\[calc\(50\%-20rem\)\] {
         scroll-padding-left: calc(50% - 20rem)
-    }
-    .md\:flex-row {
-        flex-direction: row
     }
     .md\:px-0 {
         padding-left: 0px;
@@ -675,6 +688,18 @@ body {
     }
     .lg\:p-0 {
         padding: 0px
+    }
+    .lg\:text-7xl {
+        font-size: 4.5rem;
+        line-height: 1
+    }
+    .lg\:text-3xl {
+        font-size: 1.875rem;
+        line-height: 2.25rem
+    }
+    .lg\:text-lg {
+        font-size: 1.125rem;
+        line-height: 1.75rem
     }
     .lg\:text-5xl {
         font-size: 3rem;

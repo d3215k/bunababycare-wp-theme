@@ -20,7 +20,8 @@ module.exports = {
         },
         extend: {
             fontFamily: {
-                'serif' : ['Cormorant Garamond', ...defaultTheme.fontFamily.serif]
+                'serif' : ['Carattere', ...defaultTheme.fontFamily.serif],
+                'sans' : ['Inter var', ...defaultTheme.fontFamily.sans],
             },
             colors: tailpress.colorMapper(tailpress.theme('settings.color.palette', theme)),
             fontSize: tailpress.fontSizeMapper(tailpress.theme('settings.typography.fontSizes', theme))
