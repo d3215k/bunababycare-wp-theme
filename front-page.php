@@ -61,7 +61,7 @@
     <div class="-mt-32">
         <div class="max-w-screen-md px-6 py-12 mx-auto md:px-0">
             <div class="">
-                <img loading="defer" class="overflow-hidden rounded-lg shadow-lg" src="<?php echo bunababycare_asset('images/team.jpg') ?>">
+                <img loading="lazy" class="overflow-hidden rounded-lg shadow-lg" src="<?php echo bunababycare_asset('images/team.jpg') ?>">
                 <p class="mt-6 text-lg text-center text-gray-600">Tim BunaBaby Care merupakan tenaga kesehatan bidan yang telah memiliki sertifikat pelatihan baby spa.</p>
             </div>
         </div>
@@ -73,7 +73,7 @@
         <div class="max-w-screen-lg px-6 py-16 mx-auto text-lg md:px-0">
             <div class="flex items-center gap-8">
                 <div class="flex-shrink-0 ">
-                    <img loading="defer" class="rounded-lg" loading="defer" width="300" src="<?php echo bunababycare_asset('images/ibu-dan-anak.jpg') ?>">
+                    <img loading="lazy" class="rounded-lg" width="300" src="<?php echo bunababycare_asset('images/ibu-anak.jpg') ?>">
                 </div>
                 <div>
                     <p class="">
@@ -95,16 +95,16 @@
         <div class="max-w-screen-lg px-6 mx-auto md:px-0 py-14">
             <div class="grid grid-cols-2 gap-6 ">
                 <div class="col-span-1">
-                    <img loading="defer" class="rounded-lg" src="<?php echo bunababycare_asset('images/klinik/1.jpg') ?>">
+                    <img loading="lazy" class="rounded-lg" src="<?php echo bunababycare_asset('images/klinik/1.jpg') ?>">
                 </div>
                 <div class="col-span-1">
-                    <img loading="defer" class="rounded-lg" src="<?php echo bunababycare_asset('images/klinik/2.jpg') ?>">
+                    <img loading="lazy" class="rounded-lg" src="<?php echo bunababycare_asset('images/klinik/2.jpg') ?>">
                 </div>
                 <div class="col-span-1">
-                    <img loading="defer" class="rounded-lg" src="<?php echo bunababycare_asset('images/klinik/3.jpg') ?>">
+                    <img loading="lazy" class="rounded-lg" src="<?php echo bunababycare_asset('images/klinik/3.jpg') ?>">
                 </div>
                 <div class="col-span-1">
-                    <img loading="defer" class="rounded-lg" src="<?php echo bunababycare_asset('images/klinik/4.jpg') ?>">
+                    <img loading="lazy" class="rounded-lg" src="<?php echo bunababycare_asset('images/klinik/4.jpg') ?>">
                 </div>
             </div>
 
@@ -121,7 +121,7 @@
                     </a>
                 </div>
                 <div class="">
-                    <img loading="defer" class="rounded-lg" src="<?php echo bunababycare_asset('images/klinik/depan.jpg') ?>">
+                    <img loading="lazy" class="rounded-lg" src="<?php echo bunababycare_asset('images/klinik/depan.jpg') ?>">
                 </div>
             </div>
             
@@ -140,13 +140,13 @@
                         <p class="mt-2 text-gray-600 lg:text-lg">Pijat bayi sehat, pijat balita, brain gym, pijat pediatrik, pijat stimulasi anak, baby spa, Cukur Bayi, Tindik, Tumbuh Kembang Anak, Mandi Ceria</p>
                     </div>
                     <div class="inline-flex justify-end flex-shrink-0 order-1 sm:order-2">
-                        <img loading="defer" width="200" src="<?php echo bunababycare_asset('images/baby-treatment.svg') ?>" alt="baby treatment">
+                        <img loading="lazy" width="200" src="<?php echo bunababycare_asset('images/baby-treatment.svg') ?>" alt="baby treatment">
                     </div>
                 </div>
                 
                 <div class="flex flex-col items-center sm:gap-6 sm:items-center sm:flex-row">
                     <div class="flex-shrink-0">
-                        <img loading="defer" width="200" src="<?php echo bunababycare_asset('images/newborn.svg') ?>" alt="baby treatment">
+                        <img loading="lazy" width="200" src="<?php echo bunababycare_asset('images/newborn.svg') ?>" alt="baby treatment">
                     </div>
                     <div class="text-center">
                         <h3 class="text-xl font-bold uppercase lg:text-3xl">Newborn Package</h3>
@@ -160,13 +160,13 @@
                         <p class="mt-2 text-gray-600 lg:text-lg">Pijat ibu hamil, periksa ibu hamil, totok wajah, pijat ibu nifas, pijat oksitosin, pijat rintik hujan, Prenatal Gentle Yoga, Breastcare, pijat punggung titik oksitosin, konsultasi ASI, Pijat Gelombang Cinta untuk menstimulasi konstraksi alami bumil, periksa hamil, afirmasi untuk persalinan lancar, totok bersinar</p>
                     </div>
                     <div class="inline-flex justify-end flex-shrink-0 order-1 sm:order-2">
-                        <img loading="defer" width="200" src="<?php echo bunababycare_asset('images/buna-treatment.svg') ?>" alt="baby treatment">
+                        <img loading="lazy" width="200" src="<?php echo bunababycare_asset('images/buna-treatment.svg') ?>" alt="baby treatment">
                     </div>
                 </div>
 
                 <div class="flex flex-col items-center sm:gap-6 sm:items-center sm:flex-row">
                     <div class="flex-shrink-0">
-                        <img loading="defer" width="200" src="<?php echo bunababycare_asset('images/bunababy-class.svg') ?>" alt="baby treatment">
+                        <img loading="lazy" width="200" src="<?php echo bunababycare_asset('images/bunababy-class.svg') ?>" alt="baby treatment">
                     </div>
                     <div class="text-center">
                         <h3 class="text-xl font-bold uppercase lg:text-3xl">Bunababy Class</h3>
@@ -192,34 +192,34 @@
         <div class="py-2">
             <div class="flex snap-x scroll-pl-4 gap-2 space-x-4 overflow-x-auto px-8 py-2 sm:scroll-pl-6 sm:space-x-8 md:scroll-pl-[calc(50%-20rem)] lg:scroll-pl-[calc(50%-25rem)]">
                 <div class="flex-none w-64 snap-start">
-                    <img loading="defer" src="<?php echo bunababycare_asset('images/testimonials/1.jpg') ?>" />
+                    <img loading="lazy" src="<?php echo bunababycare_asset('images/testimonials/1.jpg') ?>" />
                 </div>
                 <div class="flex-none w-64 snap-start">
-                    <img loading="defer" src="<?php echo bunababycare_asset('images/testimonials/2.jpg') ?>" />
+                    <img loading="lazy" src="<?php echo bunababycare_asset('images/testimonials/2.jpg') ?>" />
                 </div>
                 <div class="flex-none w-64 snap-start">
-                    <img loading="defer" src="<?php echo bunababycare_asset('images/testimonials/3.jpg') ?>" />
+                    <img loading="lazy" src="<?php echo bunababycare_asset('images/testimonials/3.jpg') ?>" />
                 </div>
                 <div class="flex-none w-64 snap-start">
-                    <img loading="defer" src="<?php echo bunababycare_asset('images/testimonials/4.jpg') ?>" />
+                    <img loading="lazy" src="<?php echo bunababycare_asset('images/testimonials/4.jpg') ?>" />
                 </div>
                 <div class="flex-none w-64 snap-start">
-                    <img loading="defer" src="<?php echo bunababycare_asset('images/testimonials/5.jpg') ?>" />
+                    <img loading="lazy" src="<?php echo bunababycare_asset('images/testimonials/5.jpg') ?>" />
                 </div>
                 <div class="flex-none w-64 snap-start">
-                    <img loading="defer" src="<?php echo bunababycare_asset('images/testimonials/6.jpg') ?>" />
+                    <img loading="lazy" src="<?php echo bunababycare_asset('images/testimonials/6.jpg') ?>" />
                 </div>
                 <div class="flex-none w-64 snap-start">
-                    <img loading="defer" src="<?php echo bunababycare_asset('images/testimonials/7.jpg') ?>" />
+                    <img loading="lazy" src="<?php echo bunababycare_asset('images/testimonials/7.jpg') ?>" />
                 </div>
                 <div class="flex-none w-64 snap-start">
-                    <img loading="defer" src="<?php echo bunababycare_asset('images/testimonials/8.jpg') ?>" />
+                    <img loading="lazy" src="<?php echo bunababycare_asset('images/testimonials/8.jpg') ?>" />
                 </div>
                 <div class="flex-none w-64 snap-start">
-                    <img loading="defer" src="<?php echo bunababycare_asset('images/testimonials/9.jpg') ?>" />
+                    <img loading="lazy" src="<?php echo bunababycare_asset('images/testimonials/9.jpg') ?>" />
                 </div>
                 <div class="flex-none w-64 snap-start">
-                    <img loading="defer" src="<?php echo bunababycare_asset('images/testimonials/10.jpg') ?>" />
+                    <img loading="lazy" src="<?php echo bunababycare_asset('images/testimonials/10.jpg') ?>" />
                 </div>
             </div>
         </div>
@@ -231,7 +231,7 @@
         <div class="max-w-screen-lg px-6 mx-auto md:px-0 py-14">
             <div class="grid grid-cols-1 gap-12 sm:grid-cols-3">
                 <div class="col-span-1">
-                    <img loading="defer" class="ml-8" src="<?php echo bunababycare_asset('images/faq.svg') ?>" alt="faq" />
+                    <img loading="lazy" class="ml-8" src="<?php echo bunababycare_asset('images/faq.svg') ?>" alt="faq" />
                     <div class="pr-0 -mt-16 text-right sm:pr-12">
                         <h2 class="mb-2 font-serif text-5xl font-semibold lg:text-7xl">faq</h2>
                         <p class="text-gray-600">yang paling sering ditanyakan</p>
