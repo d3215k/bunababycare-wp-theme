@@ -196,7 +196,7 @@
     <!-- Start Testimonials -->
     <div id="testimoni" class="py-12 bg-white">
         <div class="max-w-screen-md px-6 py-4 mx-auto md:px-0">
-            <h2 class="mb-2 font-serif text-5xl font-semibold lg:text-7xl">Real Testimonial</h2>
+            <h2 class="mb-2 font-serif text-5xl font-semibold lg:text-7xl">Real Testimoni</h2>
             <p class="text-gray-600">dari bunda yang sudah merasakan manfaat treatment</p>
         </div>
         <div class="py-2">
