@@ -346,7 +346,7 @@
         <div class="flex flex-col items-center max-w-screen-md px-6 mx-auto md:px-0 py-14">
             <h2 class="mb-2 font-serif text-5xl font-semibold text-center lg:text-7xl">Ikuti Kami di Instagram</h2>
             <div class="py-4">
-                Banyak info menarik seputar kebidanan
+                Banyak info menarik seputar kesehatan dan tumbuh kembang anak
             </div>
             <a href="https://www.instagram.com/bunababy_care" target="_blank"
                 class="flex items-center w-64 px-8 py-2 font-semibold leading-6 text-[#a35266] transition-colors duration-200 border border-[#a35266] bg-white rounded-full focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none">
