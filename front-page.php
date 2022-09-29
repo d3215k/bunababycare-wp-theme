@@ -3,26 +3,26 @@
 <div>
     <!-- Start Header -->
     <div class="bg-white">
-        <div class="max-w-screen-md px-6 py-6 mx-auto md:px-0">
-            <div class="flex items-center justify-between">
+        <div class="max-w-screen-lg px-6 py-6 mx-auto md:px-0">
+            <div class="flex items-center justify-center sm:justify-between">
                 <div>
                     <img width="220" src="<?php echo bunababycare_asset('images/logo.svg') ?>" alt="Logo Bunababycare">
                 </div>
                 <div class="hidden sm:block">
                     <ul class="flex items-center gap-6">
-                        <li class="text-sm font-semibold leading-tight text-gray-600 uppercase">
+                        <li class="text-sm font-semibold leading-tight tracking-widest text-gray-600 uppercase">
                             <a href="#about">About Us</a>
                         </li>
-                        <li class="text-sm font-semibold leading-tight text-gray-600 uppercase">
+                        <li class="text-sm font-semibold leading-tight tracking-widest text-gray-600 uppercase">
                             <a href="#treatment">Treatment</a>
                         </li>
-                        <li class="text-sm font-semibold leading-tight text-gray-600 uppercase">
+                        <li class="text-sm font-semibold leading-tight tracking-widest text-gray-600 uppercase">
                             <a href="#testimoni">Testimoni</a>
                         </li>
-                        <li class="text-sm font-semibold leading-tight text-gray-600 uppercase">
+                        <li class="text-sm font-semibold leading-tight tracking-widest text-gray-600 uppercase">
                             <a href="#faq">FAQ</a>
                         </li>
-                        <li class="text-sm font-semibold leading-tight text-gray-600 uppercase">
+                        <li class="text-sm font-semibold leading-tight tracking-widest text-gray-600 uppercase">
                             <a href="#booking">Booking</a>
                         </li>
                     </ul>
@@ -34,16 +34,16 @@
 
     <!-- Start Hero -->
     <div class="bg-white">
-        <div class="max-w-screen-lg px-6 pb-48 mx-auto pt-28 md:px-0">
+        <div class="max-w-screen-lg px-6 pt-20 pb-40 mx-auto md:px-0">
             <div class="flex flex-col items-center text-center">
-                <p class="max-w-screen-md mt-2 text-4xl font-bold text-gray-800">
+                <p class="max-w-screen-md text-4xl font-bold text-[#f80592]">
                     Kami telah berkarya sejak 2018
                 </p>
-                <p class="mt-2 text-lg text-gray-700">
+                <p class="mt-4 text-lg text-gray-700">
                     Dipercaya oleh ribuan ibu dan bayi menjadi pelayanan homecare ternama di Bandung dan Cimahi.
                 </p>
-                <div class="flex justify-center mt-8 text-gray-600">
-                    <a href="/" rel="noopener" target="_blank" class="flex items-center font-semibold focus:outline-none">
+                <div class="flex justify-center mt-8 text-[#b95bc7]">
+                    <a href="#" rel="noopener" target="_blank" class="flex items-center font-semibold focus:outline-none">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                             <rect x="3" y="5" width="18" height="14" rx="4"></rect>
@@ -71,7 +71,7 @@
     <!-- Start introduction -->
     <div class="bg-[#da949c] text-white" id="about">
         <div class="max-w-screen-lg px-6 py-16 mx-auto text-lg md:px-0">
-            <div class="flex items-center gap-8">
+            <div class="flex flex-col gap-8 sm:flex-row sm:items-center">
                 <div class="flex-shrink-0 ">
                     <img loading="lazy" class="rounded-lg" width="300" src="<?php echo bunababycare_asset('images/ibu-anak.jpg') ?>">
                 </div>
@@ -108,9 +108,12 @@
                 </div>
             </div>
 
-            <div class="grid grid-cols-2 gap-6 mt-8">
-                <div class="flex flex-col justify-center">
-                    <div class="py-4">
+            <div class="grid grid-cols-1 gap-6 mt-8 sm:grid-cols-2">
+                <div class="">
+                    <img loading="lazy" class="rounded-lg" src="<?php echo bunababycare_asset('images/klinik/depan.jpg') ?>">
+                </div>
+                <div class="flex flex-col items-center justify-center">
+                    <div class="py-4 text-center">
                         <h2 class="mb-2 font-serif text-5xl font-semibold lg:text-7xl">Klinik</h2>
                         <p class="text-gray-600">
                         Jalan Cihanjuang Komplek Nata Endah Blok N No. 170 Cibabat, Kec. Cimahi Utara, Kota Cimahi
@@ -119,9 +122,6 @@
                     <a href="https://goo.gl/maps/mLWKbcKvio5aFgj76" target="_blank" class="mt-4 text-primary">
                         Lihat di Google Maps
                     </a>
-                </div>
-                <div class="">
-                    <img loading="lazy" class="rounded-lg" src="<?php echo bunababycare_asset('images/klinik/depan.jpg') ?>">
                 </div>
             </div>
             
