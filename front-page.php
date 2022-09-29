@@ -114,7 +114,7 @@
                 </div>
                 <div class="flex flex-col items-center justify-center">
                     <div class="py-4 text-center">
-                        <h2 class="mb-2 font-serif text-5xl font-semibold lg:text-7xl">Klinik SPA</h2>
+                        <h2 class="mb-2 font-serif text-5xl font-semibold lg:text-7xl">Klinik Spa</h2>
                         <p class="text-gray-600">
                         Jalan Cihanjuang Komplek Nata Endah Blok N No. 170 Cibabat, Kec. Cimahi Utara, Kota Cimahi
                         </p>
