@@ -43,7 +43,7 @@
                     Dipercaya oleh ribuan ibu dan bayi menjadi pelayanan homecare ternama di Bandung dan Cimahi.
                 </p>
                 <div class="flex justify-center mt-8 text-[#b95bc7]">
-                    <a href="#" rel="noopener" target="_blank" class="flex items-center font-semibold focus:outline-none">
+                    <a href="#" rel="noopener" class="flex items-center font-semibold focus:outline-none">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                             <rect x="3" y="5" width="18" height="14" rx="4"></rect>
