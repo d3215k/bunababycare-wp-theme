@@ -1,13 +1,13 @@
 <?php get_header(); ?>
 
-<div>
+<div x-data="{ shadow: false}">
     <!-- Start Header -->
-    <div class="bg-white">
-        <div class="max-w-screen-lg px-6 py-6 mx-auto md:px-0">
+    <div class="bg-white sm:sticky sm:top-0" x-bind:class="{ 'sm:border-b sm:border-opacity-50' : shadow }">
+        <div class="max-w-screen-lg px-6 py-4 mx-auto md:px-0">
             <div class="flex items-center justify-center sm:justify-between">
-                <div>
+                <a href="/">
                     <img width="220" src="<?php echo bunababycare_asset('images/logo.svg') ?>" alt="Logo Bunababycare">
-                </div>
+                </a>
                 <div class="hidden sm:block">
                     <ul class="flex items-center gap-6">
                         <li class="text-sm font-semibold leading-tight tracking-widest text-gray-600 uppercase">
@@ -33,7 +33,7 @@
     <!-- End Header -->
 
     <!-- Start Hero -->
-    <div class="bg-white">
+    <div class="bg-white" id="about" x-intersect="shadow = false">
         <div class="max-w-screen-lg px-6 pt-20 pb-40 mx-auto md:px-0">
             <div class="flex flex-col items-center text-center">
                 <p class="max-w-screen-md text-4xl font-bold text-[#f80592]">
@@ -69,7 +69,7 @@
     <!-- End Team -->
 
     <!-- Start introduction -->
-    <div class="bg-[#da949c] text-white" id="about">
+    <div class="bg-[#da949c] text-white" x-intersect="shadow = true">
         <div class="max-w-screen-lg px-6 py-16 mx-auto text-lg md:px-0">
             <div class="flex flex-col gap-8 sm:flex-row sm:items-center">
                 <div class="flex-shrink-0 ">
@@ -133,11 +133,11 @@
     <div id="treatment">
         <div class="max-w-screen-md px-6 py-24 mx-auto md:px-0">
             <h2 class="mb-2 font-serif text-5xl font-semibold lg:text-7xl">Pilihan Treatment</h2>
-            <div class="mt-8 space-y-6">
+            <div class="mt-8 space-y-8">
                 <div class="flex flex-col items-center sm:gap-6 sm:items-center sm:flex-row">
                     <div class="order-2 text-center sm:order-1">
                         <h3 class="text-xl font-bold uppercase lg:text-3xl">Baby Treatment</h3>
-                        <p class="mt-2 text-gray-600 lg:text-lg">Pijat bayi sehat, pijat balita, brain gym, pijat pediatrik, pijat stimulasi anak, baby spa, Cukur Bayi, Tindik, Tumbuh Kembang Anak, Mandi Ceria</p>
+                        <p class="mt-2 text-gray-600 lg:text-lg">Pijat bayi sehat, pijat balita, brain gym untuk kecerdasan otak dan untuk melatih motorik bayi, pijat pediatrik, pijat stimulasi anak, baby swim (berenang), Cukur Bayi, Tindik, Pemeriksaan tumbuh kembang anak sesuai usianya, Memandikan bayi dan edukasi cara memandikan bayi untuk orangtua.</p>
                     </div>
                     <div class="inline-flex justify-end flex-shrink-0 order-1 sm:order-2">
                         <img loading="lazy" width="200" src="<?php echo bunababycare_asset('images/baby-treatment.svg') ?>" alt="baby treatment">
@@ -150,14 +150,14 @@
                     </div>
                     <div class="text-center">
                         <h3 class="text-xl font-bold uppercase lg:text-3xl">Newborn Package</h3>
-                        <p class="mt-2 text-gray-600 lg:text-lg">Mandi, Jemur, Perawatan tali pusat, pemeriksaan ibu dan bayi, pijat bayi, pijat oksitosin/breastcare, praktek belajar memandikan bayi untuk orangtua, pijat nifas, totok wajah, scrub</p>
+                        <p class="mt-2 text-gray-600 lg:text-lg">Mandi, Jemur, Perawatan tali pusat, Pemeriksaan ibu dan bayi, Pijat bayi, Pijat oksitosin/breastcare, Praktek belajar memandikan bayi untuk orangtua, Pijat nifas, Totok wajah, Scrub.</p>
                     </div>
                 </div>
 
                 <div class="flex flex-col items-center sm:gap-6 sm:items-center sm:flex-row">
                     <div class="order-2 text-center sm:order-1">
                         <h3 class="text-xl font-bold uppercase lg:text-3xl">Buna Treatment</h3>
-                        <p class="mt-2 text-gray-600 lg:text-lg">Pijat ibu hamil, periksa ibu hamil, totok wajah, pijat ibu nifas, pijat oksitosin, pijat rintik hujan, Prenatal Gentle Yoga, Breastcare, pijat punggung titik oksitosin, konsultasi ASI, Pijat Gelombang Cinta untuk menstimulasi konstraksi alami bumil, periksa hamil, afirmasi untuk persalinan lancar, totok bersinar</p>
+                        <p class="mt-2 text-gray-600 lg:text-lg">Pijat ibu hamil seluruh tubuh, Periksa ibu nifas, Totok wajah, Pijat ibu nifas, Periksa nifas sesuai keadaan pasien, Totok wajah, Pijat oksitosin untuk menstimulasi mulas alami, Pijat payudara untuk melancarkan ASI, Pijat rintik hujan, Private class yoga khusus ibu hamil dan periksa hamil, Breastcare, Pijat punggung titik oksitosin, Konsultasi ASI, Pijat Gelombang Cinta untuk menstimulasi konstraksi alami bumil, Periksa hamil, Afirmasi untuk persalinan lancar, Cleansing, Pijak wajah, Totok wajah, Masker Coklat.</p>
                     </div>
                     <div class="inline-flex justify-end flex-shrink-0 order-1 sm:order-2">
                         <img loading="lazy" width="200" src="<?php echo bunababycare_asset('images/buna-treatment.svg') ?>" alt="baby treatment">
@@ -170,7 +170,17 @@
                     </div>
                     <div class="text-center">
                         <h3 class="text-xl font-bold uppercase lg:text-3xl">Bunababy Class</h3>
-                        <p class="mt-2 text-gray-600 lg:text-lg">Persiapan Persalinan, Kelas Laktasi, New Born Care, Tumbuh Kembang Anak</p>
+                        <p class="mt-2 text-gray-600 lg:text-lg">Private pembahasan materi persiapan persalinan, teknik pernafasan, dan tips persalinan nyaman. Private Kelas Laktasi pembahasan materi laktasi dan manajemen ASI. Private New Born Care pembahasan materi perawatan bayi baru lahir, simulasi perawatan bayi sehari-hari dan teknik menggendong bayi. Private Tumbuh Kembang Anak pembahasan materi tumbuh kembang anak sesuai dengan usia anak, cara stimulasi di rumah, dan simulasi praktek.</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center sm:gap-6 sm:items-center sm:flex-row">
+                    <div class="order-2 text-center sm:order-1">
+                        <h3 class="text-xl font-bold uppercase lg:text-3xl">Bunababy Oil</h3>
+                        <p class="mt-2 text-gray-600 lg:text-lg">Bedspray Essential, Roll On untuk Nafsu Makan, Relaxing, Imun Booster, Cold Flu, Kembung, Laktasi.</p>
+                    </div>
+                    <div class="inline-flex justify-end flex-shrink-0 order-1 sm:order-2">
+                        <img loading="lazy" width="200" src="<?php echo bunababycare_asset('images/ibu-bawa-bayi.svg') ?>" alt="baby treatment">
                     </div>
                 </div>
             </div>
@@ -273,31 +283,10 @@
     </div>
     <!-- End FAQ -->
 
-    <!-- Start Instagram -->
-    <!-- <div class="bg-white ">
-        <div class="max-w-screen-md px-6 mx-auto border-t md:px-0 py-14">
-            <h2 class="mb-2 text-3xl font-semibold">Ikuti Kami di Instagram</h2>
-            <div class="py-4">
-
-            </div>
-            <a href="https://www.instagram.com/bunababy_care"
-                class="flex items-center w-64 px-4 py-2 font-semibold leading-6 text-white transition-colors duration-200 border border-transparent hover:opacity-80 bg-fuchsia-700 rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <rect x="4" y="4" width="16" height="16" rx="4"></rect>
-                    <circle cx="12" cy="12" r="3"></circle>
-                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
-                </svg>    
-                <span class="ml-2">@bunababy_care</span>
-            </a>
-        </div>
-    </div> -->
-    <!-- End Instagram -->
-
     <!-- Start Booking -->
     <div id="booking" class="bg-[#da949c] text-white">
-        <div class="max-w-screen-md px-8 mx-auto sm:px-0 py-14">
-            <h2 class="mb-2 font-serif text-5xl font-semibold text-center lg:text-7xl">Alur Booking</h2>
+        <div class="max-w-screen-md px-8 pb-32 mx-auto sm:px-0 py-14">
+            <h2 class="mb-2 font-serif text-5xl font-semibold text-center sm:mt-6 lg:text-7xl">Alur Booking</h2>
             <div class="py-4">
                 <ul class="grid gap-2 sm:gap-6 sm:grid-cols-3">
                     <li class="flex items-center">
@@ -331,15 +320,13 @@
     </div>
     <!-- End Booking -->
 
-    <div class="py-8 bg-[#da949c]"></div>
-
     <!-- Start WhatsApp -->
-    <div class=""
+    <div class="-mt-14 "
         x-intersect="$store.waButton.show = false"
         x-intersect:leave="$store.waButton.show = true"
     >
     <div class="max-w-screen-sm px-6 mx-auto sm:px-0">
-        <div class="relative flex flex-col items-center px-6 py-8 bg-white rounded-lg -mt-14 sm:flex-row sm:py-4">
+        <div class="relative flex flex-col items-center px-6 py-8 bg-white rounded-lg sm:flex-row sm:py-4">
             <p class="flex-grow pb-2 text-lg font-normal text-gray-700 sm:text-center sm:pb-0">Sudah siap untuk treatment?</p>
             <a href="https://api.whatsapp.com/send?phone=628997897991&text=Halo+Bunababy_Care.+Perkenalkan+saya+dengan+%28Isi+Nama%29.+Lokasi+saya+di+%28Sebutkan+alamat+jelas%29.+Ingin+reservasi+treatment+%28sebutkan%29.+Thank+you"
                     class="flex items-center w-64 px-4 py-2 font-semibold leading-6 text-white transition-colors duration-200 bg-green-500 border border-transparent hover:opacity-80 rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none">
@@ -352,8 +339,28 @@
                 </a>
         </div>
     </div>
-
     <!-- End WhatsApp -->
+
+    <!-- Start Instagram -->
+    <div class=" pt-32 text-white bg-[#a35266] -mt-28 sm:-mt-14">
+        <div class="flex flex-col items-center max-w-screen-md px-6 mx-auto md:px-0 py-14">
+            <h2 class="mb-2 font-serif text-5xl font-semibold text-center lg:text-7xl">Ikuti Kami di Instagram</h2>
+            <div class="py-4">
+                Banyak info menarik seputar kebidanan
+            </div>
+            <a href="https://www.instagram.com/bunababy_care" target="_blank"
+                class="flex items-center w-64 px-8 py-2 font-semibold leading-6 text-[#a35266] transition-colors duration-200 border border-[#a35266] bg-white rounded-full focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <rect x="4" y="4" width="16" height="16" rx="4"></rect>
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
+                </svg>    
+                <span class="ml-2 text-lg font-semibold">@bunababy_care</span>
+            </a>
+        </div>
+    </div>
+    <!-- End Instagram -->
 
 </div>
 
