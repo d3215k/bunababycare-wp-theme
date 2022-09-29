@@ -62,7 +62,7 @@
         <div class="max-w-screen-md px-6 py-12 mx-auto md:px-0">
             <div class="">
                 <img loading="lazy" class="overflow-hidden rounded-lg shadow-lg" src="<?php echo bunababycare_asset('images/team.jpg') ?>">
-                <p class="mt-6 text-lg text-center text-gray-600">Tim BunaBaby Care merupakan tenaga kesehatan bidan yang telah memiliki sertifikat pelatihan baby spa.</p>
+                <p class="mt-6 text-lg text-center text-gray-600">Tim BunaBaby Care merupakan tenaga kesehatan Bidan yang berpengalaman dan tersertifikasi dalam memberikan pelayanan baby and mom treatment.</p>
             </div>
         </div>
     </div>
@@ -114,7 +114,7 @@
                 </div>
                 <div class="flex flex-col items-center justify-center">
                     <div class="py-4 text-center">
-                        <h2 class="mb-2 font-serif text-5xl font-semibold lg:text-7xl">Klinik</h2>
+                        <h2 class="mb-2 font-serif text-5xl font-semibold lg:text-7xl">Klinik SPA</h2>
                         <p class="text-gray-600">
                         Jalan Cihanjuang Komplek Nata Endah Blok N No. 170 Cibabat, Kec. Cimahi Utara, Kota Cimahi
                         </p>
