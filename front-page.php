@@ -2,7 +2,7 @@
 
 <div x-data="{ shadow: false}">
     <!-- Start Header -->
-    <div class="bg-white sm:sticky sm:top-0" x-bind:class="{ 'sm:border-b sm:border-opacity-50' : shadow }">
+    <div class="z-50 bg-white sm:sticky sm:top-0" x-bind:class="{ 'sm:border-b sm:border-opacity-50' : shadow }">
         <div class="max-w-screen-lg px-6 py-4 mx-auto md:px-0">
             <div class="flex items-center justify-center sm:justify-between">
                 <a href="/">
@@ -108,7 +108,7 @@
                 </div>
             </div>
 
-            <div class="grid grid-cols-1 gap-6 mt-8 sm:grid-cols-2">
+            <div class="grid grid-cols-1 gap-6 mt-2 sm:mt-6 sm:grid-cols-2">
                 <div class="">
                     <img loading="lazy" class="rounded-lg" src="<?php echo bunababycare_asset('images/klinik/depan.jpg') ?>">
                 </div>
