@@ -93,7 +93,7 @@
     <!-- Start Klinik -->
     <div class="bg-white">
         <div class="max-w-screen-lg px-6 mx-auto md:px-0 py-14">
-            <div class="grid grid-cols-2 gap-6 ">
+            <div class="grid grid-cols-2 gap-2 sm:gap-6 ">
                 <div class="col-span-1">
                     <img loading="lazy" class="rounded-lg" src="<?php echo bunababycare_asset('images/klinik/1.jpg') ?>">
                 </div>
