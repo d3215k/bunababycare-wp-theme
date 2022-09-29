@@ -343,9 +343,9 @@
 
     <!-- Start Instagram -->
     <div class=" pt-32 text-white bg-[#a35266] -mt-28 sm:-mt-14">
-        <div class="flex flex-col items-center max-w-screen-md px-6 mx-auto md:px-0 py-14">
-            <h2 class="mb-2 font-serif text-5xl font-semibold text-center lg:text-7xl">Ikuti Kami di Instagram</h2>
-            <p class="py-4 text-center">
+        <div class="flex flex-col items-center max-w-screen-md px-6 mx-auto text-center md:px-0 py-14">
+            <h2 class="mb-2 font-serif text-5xl font-semibold lg:text-7xl">Ikuti Kami di Instagram</h2>
+            <p class="py-4">
                 Banyak info menarik seputar kesehatan dan tumbuh kembang anak
             </p>
             <a href="https://www.instagram.com/bunababy_care" target="_blank"
